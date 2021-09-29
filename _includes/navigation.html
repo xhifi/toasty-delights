@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-md navbar-light bg-transparent top-nav py-2">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Toasty Delights</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      {% assign navigation = site.data.navigation.headernav %}
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        {% for item in navigation %}
+        <li class="nav-item dropdown">
+          <a class="nav-link {% if item.subfolderitems %}dropdown-toggle{% endif %}" href="{{ item.url }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            {{ item.title }}
+          </a>
+          {% if item.subfolderitems %}
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for entry in item.subfolderitems %}
+            <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.page }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+        <button class="btn btn-outline-success" type="submit">Contact Us</button>
+    </div>
+  </div>
+</nav>

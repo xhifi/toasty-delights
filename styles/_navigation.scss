@@ -1,0 +1,15 @@
+.top-nav{
+    .container-fluid{
+        .navbar-brand{
+            font-family: 'IBM Plex Serif', serif !important;
+            color: $dark-color;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .top-nav{
+        background-color: $light-color !important;
+    }
+}

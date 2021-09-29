@@ -1,0 +1,21 @@
+<h3 class="mb-3 ps-3">All List Recipes</h3>
+<div class="row ps-3">
+    {% for post in site.posts %}
+    <a href="{{ post.url }}" class="text-decoration-none text-dark-color">
+        <div class="col-12">
+            <div class="card-y mb-3 bg-white shadow">
+                <div class="row align-items-center">
+                    <div class="col-4 card-image-list" style="background: url({{ site.baseurl }}/static/images/recipes/recipe-1.jpg)">
+                    </div>
+                    <div class="col-8 p-4">
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>

@@ -1,0 +1,61 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import "../static/bootstrap/scss/bootstrap";
+
+$dark-color: #166941;
+$dark-color-hover: #0f442a;
+$light-color: #edf2f4;
+$light-color-hover: $dark-color;
+$medium: #adb5bd;
+
+@import "header";
+@import "recipes";
+@import "navigation";
+@import "article";
+
+body{
+    background-color: $light-color;
+    font-family: 'Raleway', sans-serif;
+    color: $dark-color;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.spacer-75{
+    height: 75px;
+    background-color: transparent;
+    
+}
+
+
+
+
+.hero-img-bg{
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    filter: opacity(10%);
+}
+.bg-dark-color{
+    background-color: $dark-color !important;
+    color: $light-color !important;
+    transition: all 0.2s linear;
+    &:hover{
+        background-color: $dark-color-hover !important;
+    }
+}
+.text-dark-color{
+    color: $dark-color !important;
+}
+.text-dark-color{
+    color: $dark-color !important;
+    transition: all 0.2s linear;
+    &:hover{
+        color: $dark-color-hover !important;
+        
+    }
+}

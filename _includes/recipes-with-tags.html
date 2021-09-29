@@ -1,0 +1,15 @@
+
+<div class="container-fluid my-5">
+    <div class="row g-4">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 border-end">
+            {% include tags-list.html %}
+        </div>
+        <div class="col-12 col-sm-12 col-md-10 col-lg-10">
+            {% if page.type == "list" %}
+                {% include recipes-list.html %}
+            {% elsif page.type == "grid" %}
+                {% include recipes-cards.html %}
+            {% endif %}
+        </div>
+    </div>
+</div>

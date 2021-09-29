@@ -1,0 +1,18 @@
+<h3 class="mb-3">All Grid Recipes</h3>
+<div class="row row-cols-1 row-cols-md-2 row-cols-sm-2 row-cols-lg-3 g-4">
+    {% for post in site.posts %}
+    <a href="" class="text-decoration-none text-dark-color">
+        <div class="col">
+            <div class="card h-100 shadow">
+                <div class="card-img-top card-image"
+                    style="background: url({{ site.baseurl }}/static/images/recipes/recipe-1.jpg)"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>

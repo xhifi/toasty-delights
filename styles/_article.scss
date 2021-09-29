@@ -1,0 +1,17 @@
+article{
+    @extend .mb-5;
+    .article-image{
+        @extend .shadow;
+        @extend .rounded;
+        @extend .mb-5;
+        height: 300px;
+    }
+    img{
+        @extend .img-fluid;
+    }
+    ul{
+    }
+    ol{
+
+    }
+}
