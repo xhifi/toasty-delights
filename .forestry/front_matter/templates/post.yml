@@ -5,18 +5,67 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: false
+  default: post
+  config:
+    required: false
 - type: text
   name: title
   label: title
 - type: text
-  name: tags
-  label: tags
-- type: text
-  name: categories
-  label: categories
-- type: text
   name: image
   label: image
-- type: text
-  name: duration
-  label: duration
+- name: tags
+  type: select
+  default: Green
+  config:
+    required: true
+    options:
+    - Green
+    - Healthy
+    - Chicken
+    - Beef
+    - Lamb
+    - Fried
+    source:
+      type: simple
+      section: posts
+      file: _posts/2021-09-28-thai-chicken-with-basil-stir-fry.md
+      path: 
+  label: Tags
+- name: categories
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Thai
+    - Philippines
+    - Italian
+    - Greece
+    - Indian
+    - France
+    - Euro Japanese
+    - French
+    - Egyptian
+    - Middle East
+    - Chinese
+    - Britain
+    - America
+    - Mexican
+    - Spanish
+    - Turkish
+    - Vegetarian
+    - Weight Loss
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Collection
+- name: duration
+  type: text
+  config:
+    required: true
+  label: Duration
+  default: 1Hour 30Minutes
