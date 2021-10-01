@@ -12,24 +12,6 @@ fields:
 - type: text
   name: title
   label: title
-- name: tags
-  type: select
-  default: Green
-  config:
-    required: true
-    options:
-    - Green
-    - Healthy
-    - Chicken
-    - Beef
-    - Lamb
-    - Fried
-    source:
-      type: simple
-      section: posts
-      file: _posts/2021-09-28-thai-chicken-with-basil-stir-fry.md
-      path: 
-  label: Tags
 - name: categories
   type: select
   default: []
@@ -71,3 +53,11 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: tags
+  type: tag_list
+  default:
+  - Green
+  - meat
+  label: Tags
+  showOnly:
+    field: categories
