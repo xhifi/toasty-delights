@@ -6,7 +6,7 @@ tags:
 - meat
 duration: 30Minutes
 title: Turnip Hummus
-image: ''
+image: "/recipes/roasted-turnip-hummus-2.jpg"
 
 ---
 ## **Ingredients:**
@@ -15,8 +15,6 @@ image: ''
   Turnips; diced (2 – 3 Qty. OR 5 Small)  
   Olive Oil (1 Tablespoon)  
   Sea Salt & Ground Black Pepper (To Taste)
-
-
 * **Hummus:**  
   Chickpeas; Rinsed & Drained (15.5 oz; 1 Can)  
   Tahini (1/4 Cup)  
@@ -26,8 +24,7 @@ image: ''
   Sea Salt (1/2 Teaspoon)  
   Cumin (1/2 Teaspoon)
 
-##   
-**Recipe:**
+## **Recipe:**
 
 1. Preheat the oven to 400O F & Line a baking sheet with parchment paper.
 2. Toss diced turnips in olive oil, salt and pepper, and spread it in an even layer on the sheet.
