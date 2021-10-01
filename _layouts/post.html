@@ -22,13 +22,14 @@
         <div class="border bg-dark-color rounded p-5 hero-box text-center shadow">
             <h1>{{ page.title }}</h1>
             <p>{{ post.description }}</p>
+            <p>{{ post.collections }}</p>
         </div>
     </div>
     {% if page.title == "Home" %}
         <img src="{{ site.baseurl }}/static/images/hero-bg.png" alt="" height="100vh" class="position-absolute hero-img-bg">
     {% endif %}
     <article class="container col-6">
-        <div class="article-image" style="background-image: url({{ site.baseurl }}/static/images/recipes/{{ page.image }}.jpg);"></div>
+        <div class="article-image" style="background-image: url({{ site.baseurl }}/static/images/recipes/{{ page.image }});"></div>
         {{ content }}
     </article>
     {% include footer.html %}

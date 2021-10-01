@@ -5,6 +5,9 @@ article{
         @extend .rounded;
         @extend .mb-5;
         height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     img{
         @extend .img-fluid;

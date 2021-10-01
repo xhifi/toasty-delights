@@ -3,8 +3,8 @@ layout: post
 title: Thai Chicken with Basil Stir Fry
 tags: Green Chicken
 categories: Thai
-image: Thai-Basil-Chicken
-duration: 1Hr
+image: "Thai-Basil-Chicken.jpg"
+duration: 1Hour 30Mins
 ---
 * Bring rice and water to a boil in a pot.
 * Cover it while reducing the heat to low.
