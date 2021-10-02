@@ -18,7 +18,7 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-upload_dir: static/images/recipes
+upload_dir: static/images
 public_path: "/recipes"
 front_matter_path: ''
 use_front_matter_path: false
