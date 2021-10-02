@@ -6,7 +6,7 @@ tags:
 - meat
 duration: 30Minutes
 title: Turnip Hummus
-image: "/recipes/recipes/roasted-turnip-hummus-2.jpg"
+image: "/recipes/roasted-turnip-hummus-2.jpg"
 
 ---
 ## **Ingredients:**
